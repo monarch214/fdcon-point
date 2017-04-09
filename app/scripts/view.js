@@ -21,7 +21,6 @@ let getView = (type) => {
     $animateContainer.append($swiperPagination);
     $animateContainer.append($swiperContainer);
     let mySwiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
       pagination: '.swiper-pagination',
       paginationType: 'progress',
       paginationClickable: true
