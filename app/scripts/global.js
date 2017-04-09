@@ -6,7 +6,7 @@ const MEITUAN_BETWEEN = [1006, 1084];
 const ELE_BETWEEN = [1085, 1119];
 const TB_BETWEEN = [1120, 1157];
 const HUJ_BETWEEN = [1158, 1195];
-const PATH = './images';
+const PATH = 'http://oo5eazbg6.bkt.clouddn.com';
 let model = {
   vueList: [],
   ctripList: [],
