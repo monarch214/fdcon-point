@@ -51,7 +51,9 @@ li {
 .swiper-slide img {
     width: 720px;
 }
-
+.swiper-pagination-progress .swiper-pagination-progressbar {
+  background: #337ab7;
+}
 
 /* Custom page footer */
 
