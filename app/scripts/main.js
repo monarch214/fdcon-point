@@ -16,6 +16,22 @@ window.onload = function () {
     '/taobao': () => {
       $view.hide();
       getView('taobaoList');
+    },
+    '/meituan': () => {
+      $view.hide();
+      getView('meituanList');
+    },
+    '/ele': () => {
+      $view.hide();
+      getView('eleList');
+    },
+    '/tb': () => {
+      $view.hide();
+      getView('tbList');
+    },
+    '/huj': () => {
+      $view.hide();
+      getView('hujList');
     }
   };
   let router = Router(routes);
