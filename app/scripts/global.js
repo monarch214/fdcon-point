@@ -2,7 +2,7 @@
 const VUE_BETWEEN = [903, 938];
 const CTRIP_BETWEEN = [950, 978];
 const TAOBAO_BETWEEN = [979, 999];
-const PATH = './images';
+const PATH = '../images';
 let model = {
   vueList: [],
   ctripList: [],
