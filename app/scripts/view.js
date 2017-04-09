@@ -1,3 +1,9 @@
+let shutOther = (type) => {
+  for(let i in isRender) {
+    isRender[i] = false;
+  }
+  isRender[type] = true;
+};
 let getView = (type) => {
   if (isRender[type]) {
     $animateContainer.show();
@@ -20,6 +26,6 @@ let getView = (type) => {
       paginationType: 'progress',
       paginationClickable: true
     });
-    isRender[type] = true;
+    shutOther(type);
   }
-}
+};
