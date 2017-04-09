@@ -2,7 +2,7 @@ let getModelList = (start, end, type) => {
   let pre = 'IMG_';
   for (let i = start; i <= end; i++) {
     let query = i < 1000 ? '0' + i : i;
-    let tmpPic = PATH + '/' + pre + query + '.jpg';
+    let tmpPic = PATH + '/' + pre + query + '.JPG';
     model[type].push(tmpPic);
   }
 }
