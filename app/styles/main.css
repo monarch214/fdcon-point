@@ -58,6 +58,26 @@ li {
   width: 720px;
 }
 
+.control-container {
+  overflow: hidden;
+}
+
+.control-container .pager1 {
+  float: right;
+}
+
+.control-container .pager2 {
+  float: left;
+}
+
+.control-container .pager2 .previous a {
+  margin: 0 5px;
+}
+
+.control-container .pager {
+  margin: 10px 0 10px;
+}
+
 /* Custom page footer */
 
 .footer {

@@ -19,6 +19,7 @@ let model = {
 
 /*view*/
 let $view = $('.view');
+let $control = $('.control-container');
 let $animateContainer = $('.animate-container');
 let isRender = {
   vueList: false,
@@ -29,3 +30,4 @@ let isRender = {
   tbList: false,
   hujList: false
 };
+let mySwiper = {};
