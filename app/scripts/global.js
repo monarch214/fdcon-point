@@ -21,6 +21,7 @@ let model = {
 let $view = $('.view');
 let $control = $('.control-container');
 let $animateContainer = $('.animate-container');
+let $forkMe = $('.fork-me');
 let isRender = {
   vueList: false,
   ctripList: false,
@@ -31,3 +32,8 @@ let isRender = {
   hujList: false
 };
 let mySwiper = {};
+let viewShutUpHandler = () => {
+  $view.hide();
+  $control.hide();
+  $forkMe.hide();
+};

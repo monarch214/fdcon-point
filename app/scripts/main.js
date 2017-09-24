@@ -1,44 +1,37 @@
 window.onload = function () {
   let routes = {
     '/': () => {
-      $view.hide();
-      $control.hide();
+      viewShutUpHandler();
       $('.main-container').show();
+      $forkMe.show();
       console.log('index');
     },
     '/vue': () => {
-      $view.hide();
-      $control.hide();
+      viewShutUpHandler();
       getView('vueList');
     },
     '/ctrip': () => {
-      $view.hide();
-      $control.hide();
+      viewShutUpHandler();
       getView('ctripList');
     },
     '/taobao': () => {
-      $view.hide();
-      $control.hide();
+      viewShutUpHandler();
       getView('taobaoList');
     },
     '/meituan': () => {
-      $view.hide();
-      $control.hide();
+      viewShutUpHandler();
       getView('meituanList');
     },
     '/ele': () => {
-      $view.hide();
-      $control.hide();
+      viewShutUpHandler();
       getView('eleList');
     },
     '/tb': () => {
-      $view.hide();
-      $control.hide();
+      viewShutUpHandler();
       getView('tbList');
     },
     '/huj': () => {
-      $view.hide();
-      $control.hide();
+      viewShutUpHandler();
       getView('hujList');
     }
   };
